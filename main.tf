@@ -1,10 +1,10 @@
 terraform {
-  cloud {
+  /*cloud {
     organization = "policy-as-code-training"
     workspaces {
-      name = "tf-vault-qa-Krishna15112"
+      name = "tf-vault-qa-Krishna-A"
     }
-  } 
+  } */
 
   required_providers {
     aws = {
@@ -12,8 +12,8 @@ terraform {
       version = "~> 3.28.0"
     }
   }
-  required_version = ">= 0.14.0"
-}
+  required_version = ">= 0.14.0" 
+} 
 
 provider "aws" {
   region  = "us-west-1"
