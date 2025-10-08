@@ -5,6 +5,7 @@ terraform {
       name = "tf-vault-qa-Krishna15112"
     }
   } */
+  
   required_providers {
     aws = {
       source = "hashicorp/aws"
